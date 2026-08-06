@@ -30,3 +30,7 @@ fallback_version = "0.0.1.dev0"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools]
+# 显式声明不包含任何 license-files，阻止自动生成 License-File 元数据
+license-files = []

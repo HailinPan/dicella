@@ -1,0 +1,10 @@
+{
+  "files": [
+    "LICENSE",
+    "pyproject.toml",
+    "README.md",
+    ".gitignore",
+    ".github/workflows/release.yml",
+    "src/dicella/__init__.py"
+  ]
+}

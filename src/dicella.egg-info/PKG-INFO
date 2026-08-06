@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dicella
+Version: 0.0.2.dev0+g0fe509688.d20260806
+Summary: Digital Cell Analysis Toolkit
+Author-email: Hailin Pan <hailinpan1988@163.com>
+License: MIT
+Project-URL: Homepage, https://github.com/HailinPan/dicella
+Project-URL: Repository, https://github.com/HailinPan/dicella
+Keywords: cell-analysis,bioinformatics
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# DiCellA
+
+**Digital Cell Analysis Toolkit**
+
+> ⚠️ **Placeholder Package**
+> This package is currently reserved for the upcoming DiCellA project.
+> No functional code is included in this release.
+
+## Installation
+
+```bash
+pip install dicella
