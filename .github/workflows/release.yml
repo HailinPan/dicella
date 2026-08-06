@@ -1,7 +1,3 @@
-
-#### 4. `.github/workflows/release.yml`
-
-```yaml
 name: Release to PyPI
 
 on:
