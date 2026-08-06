@@ -6,6 +6,9 @@
 > This package is currently reserved for the upcoming DiCellA project.
 > No functional code is included in this release.
 
+## Repository
+- [GitHub](https://github.com/HailinPan/dicella)
+
 ## Installation
 
 ```bash
