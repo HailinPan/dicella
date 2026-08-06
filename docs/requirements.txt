@@ -1,0 +1,3 @@
+sphinx>=7.0
+myst-parser>=3.0        # 如果用 Markdown
+sphinx-rtd-theme>=2.0   # 或其他你选的主题
