@@ -5,4 +5,6 @@ try:
 except ImportError:
     __version__ = "0.0.0.dev0"
 
-__all__ = ["__version__"]
+from . import tools as tl
+
+__all__ = ["__version__", "tl"]
