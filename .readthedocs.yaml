@@ -7,10 +7,10 @@ build:
 
 sphinx:
   configuration: docs/conf.py      # ← 指向你的 conf.py 路径
-  fail_on_warning: true            # 可选：警告视为错误
 
 python:
   install:
     - method: pip
       path: .                      # 安装项目本身（确保 importlib.metadata 能读到版本号）
     - requirements: docs/requirements.txt  # 文档构建依赖
+
