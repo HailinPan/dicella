@@ -1,0 +1,12 @@
+# Build artifacts
+/dist/
+/build/
+/*.egg-info/
+
+# Generated version file
+src/dicella/_version.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
