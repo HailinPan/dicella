@@ -12,3 +12,18 @@ conda create -n dicella_env python=3.11 -y
 
 # Activate the environment
 conda activate dicella_env
+```
+
+## Installation
+
+## Installation Methods
+Choose one of the following methods based on your use case.
+### Method 1: Install from PyPI
+
+```bash
+pip install dicella
+```
+### Method 2: Install from GitHub Source
+```bash
+pip install git+https://github.com/HailinPan/dicella.git
+```
