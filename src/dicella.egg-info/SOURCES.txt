@@ -8,6 +8,4 @@ src/dicella/_version.py
 src/dicella.egg-info/PKG-INFO
 src/dicella.egg-info/SOURCES.txt
 src/dicella.egg-info/dependency_links.txt
-src/dicella.egg-info/scm_file_list.json
-src/dicella.egg-info/scm_version.json
 src/dicella.egg-info/top_level.txt
