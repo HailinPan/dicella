@@ -40,4 +40,9 @@ intersphinx_mapping = {
 }
 
 # ✅ 新增：MyST 扩展配置（如果用 Markdown）
-myst_enable_extensions = ["colon_fence", "deflist", "fieldlist"]
+myst_enable_extensions = [
+    "colon_fence",      # ::: 指令语法
+    "deflist",          # 定义列表
+    "fieldlist",        # 字段列表
+    "substitution",     # 变量替换
+]
