@@ -7,7 +7,7 @@
 > No functional code is included in this release.
 
 ## Repository
-- [GitHub](https://github.com/HailinPan/dicella)
+- [DiCellA in GitHub](https://github.com/HailinPan/dicella)
 
 ## Installation
 
