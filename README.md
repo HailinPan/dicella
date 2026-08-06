@@ -9,13 +9,13 @@
 ## Installation
 
 ```bash
-# method 1
+# create a new conda environment
 conda create -n dicella_env python=3.11 -y
 conda activate dicella_env
+
+# method 1
 pip install dicella
 
 # method 2
-conda create -n dicella_env python=3.11 -y
-conda activate dicella_env
 pip install git+https://github.com/HailinPan/dicella.git
 
