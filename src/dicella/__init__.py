@@ -6,5 +6,7 @@ except ImportError:
     __version__ = "0.0.0.dev0"
 
 from . import tools as tl
+from . import plots as pl
+from . import cell_seg as cs
 
-__all__ = ["__version__", "tl"]
+__all__ = ["__version__", "tl", "pl "]
