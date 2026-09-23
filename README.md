@@ -37,23 +37,21 @@ pip install "git+https://github.com/HailinPan/dicella.git#egg=dicella[seg]"
 ```
 
 ### Development installation
-- Clone the repository from GitHub.
 - Create a new conda environment.
 - Activate the environment.
-- Install the dependencies.
+- Clone the repository from GitHub.
+- Install the package.
 
 ```bash
-# clone the repository
-git clone https://github.com/HailinPan/dicella.git
-
 # create a new conda environment
 conda create -n dicella_env python=3.11 -y
 conda activate dicella_env
 
-# install the dependencies
-pip install -r requirements.txt
+# clone the repository
+git clone https://github.com/HailinPan/dicella.git
 
 # install the package
+# If you change the code in the directory just cloned from GitHub, it will automatically update the package. Don't install the package again.
 cd dicella
 pip install -e .
 ```
