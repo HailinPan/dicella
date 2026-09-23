@@ -23,6 +23,14 @@ classifiers = [
 ]
 dynamic = ["version"]
 
+# ============================================================
+# Console script entry points
+# After `pip install dicella`, a `dicella` command is available
+# in your shell. It calls dicella.cli:main.
+# ============================================================
+[project.scripts]
+dicella = "dicella.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/HailinPan/dicella"
 Repository = "https://github.com/HailinPan/dicella"

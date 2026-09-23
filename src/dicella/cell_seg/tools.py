@@ -76,7 +76,6 @@ def get_adata_from_gem_and_cell_labels(
 
 def read_gem_agg(
     path: str,
-    gene_agg: Optional[Dict[str, Union[List[str], Callable[[str], bool]]]] = None,
 ) -> AnnData:
     """
     读取GEM文件并聚合基因

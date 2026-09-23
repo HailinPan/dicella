@@ -1,6 +1,7 @@
 from typing import Optional, Tuple, Union, Literal, List, Dict, Set
 import numpy as np
 import pandas as pd
+import os
 import re
 from sklearn.preprocessing import RobustScaler
 from scipy.cluster.hierarchy import linkage, fcluster
@@ -71,7 +72,8 @@ def extract_features(
     affected_by_rotation: bool = False,
 ):
     feature_info_df = pd.read_csv(
-        "/Data/user/panhailin/code/git_hub/dicella/src/dicella/tools/morph_feature.csv", 
+        os.path.join(os.path.dirname(__file__), "morph_feature.csv"),
+        # "/Data/user/panhailin/code/git_hub/dicella/src/dicella/tools/morph_feature.csv", 
         comment='#',
         dtype={
             "feature_name": str,
