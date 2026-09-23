@@ -3,7 +3,6 @@ import sys
 import numpy as np
 from scipy import ndimage
 import cv2
-from cellpose import models, core, io, plot
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib as mpl

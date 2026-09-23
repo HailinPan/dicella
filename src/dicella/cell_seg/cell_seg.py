@@ -17,7 +17,7 @@ def cell_seg_on_ssdna_by_cellpose(
         img = cv2.imread(img, 0)
     img = img[:,:,None]
 
-    from cellpose import models, core, io, plot
+    from cellpose import models
     
     model = models.CellposeModel(gpu=True, pretrained_model=model_name)
     cell_labels, flows, styles = model.eval(img, batch_size=batch_size)
