@@ -2,9 +2,7 @@
 
 **Digital Cell Analysis Toolkit**
 
-> ⚠️ **Placeholder Package**
-> This package is currently reserved for the upcoming DiCellA project.
-> No functional code is included in this release.
+This package is a digital cell analysis toolkit that provides a set of tools for cell analysis.
 
 ## Repository
 - [DiCellA in GitHub](https://github.com/HailinPan/dicella)
