@@ -10,6 +10,15 @@ license = {text = "MIT"}
 requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "opencv-python>=4.8",
+    "scikit-image>=0.21",
+    "scikit-learn>=1.3",
+    "anndata>=0.9",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "plotly>=5.0",
 ]
 authors = [
     {name = "Hailin Pan", email = "hailinpan1988@163.com"},
@@ -22,6 +31,14 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Bio-Informatics",
 ]
 dynamic = ["version"]
+
+# Optional dependencies (extras):
+#   pip install dicella              → core only (no cell segmentation)
+#   pip install "dicella[seg]"       → core + cellpose (for cell segmentation)
+#   pip install "dicella[all]"       → everything
+[project.optional-dependencies]
+seg = ["cellpose>=3.0"]
+all = ["cellpose>=3.0"]
 
 # ============================================================
 # Console script entry points
@@ -41,6 +58,10 @@ fallback_version = "0.0.1.dev0"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+# Include non-Python data files (e.g. morph_feature.csv)
+[tool.setuptools.package-data]
+dicella = ["**/*.csv"]
 
 [tool.setuptools]
 # 显式声明不包含任何 license-files，阻止自动生成 License-File 元数据
